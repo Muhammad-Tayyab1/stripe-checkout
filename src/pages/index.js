@@ -36,7 +36,7 @@ export default function Home() {
           <button className="snipcart-add-item"
             data-item-id={node.id}
             data-item-price={node.unit_amount}
-            data-item-url="/paintings/starry-night"
+            data-item-url="https://blissful-minsky-b95dbe.netlify.app/"
             data-item-description={node.product.description}
             data-item-image={node.product.images[0]}
             data-item-name={node.product.name}>
