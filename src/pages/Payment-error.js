@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const error = () => {
+function error() {
     return (
         <div>
-            Error to Pay
+            Error
         </div>
     )
 }
+
+export default error;
